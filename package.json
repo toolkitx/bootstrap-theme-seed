@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "gulp vendors",
     "start": "gulp default",
     "build": "gulp build"
   },
@@ -27,6 +28,8 @@
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
-    "gulp-uglify": "^3.0.2"
+    "gulp-uglify": "^3.0.2",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
   }
 }
